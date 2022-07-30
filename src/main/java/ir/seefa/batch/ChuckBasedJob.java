@@ -26,8 +26,6 @@ import javax.sql.DataSource;
 @Configuration
 public class ChuckBasedJob {
 
-    public static String[] names = new String[]{"customerNumber", "customerName", "contactLastName", "contactFirstName", "phone", "addressLine1", "addressLine2", "city", "state", "postalCode", "country", "salesRepEmployeeNumber", "creditLimit"};
-
     private final JobBuilderFactory jobBuilderFactory;
     private final StepBuilderFactory stepBuilderFactory;
     private final DataSource dataSource;
